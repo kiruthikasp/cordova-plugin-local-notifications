@@ -31,7 +31,7 @@
  *
  * @return {Object}
  */
- cordova.define("de.appplant.cordova.plugin.local-notification.LocalNotification", function(require, exports, module) {
+ cordova.define("kiruthikasp/cordova-plugin-local-notifications", function(require, exports, module) {
    // insert local-notification.js content
 
 exports.getDefaults = function () {
