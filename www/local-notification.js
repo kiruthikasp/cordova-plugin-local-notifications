@@ -31,6 +31,9 @@
  *
  * @return {Object}
  */
+ cordova.define("de.appplant.cordova.plugin.local-notification.LocalNotification", function(require, exports, module) {
+   // insert local-notification.js content
+
 exports.getDefaults = function () {
     return this.core.getDefaults();
 };
@@ -368,3 +371,4 @@ exports.on = function (event, callback, scope) {
 exports.un = function (event, callback) {
     this.core.un(event, callback, scope);
 };
+});
