@@ -18,6 +18,8 @@
     specific language governing permissions and limitations
     under the License.
 */
+cordova.define("de.appplant.cordova.plugin.localnotification.LocalNotification",
+function (require, exports, module) {
 
 var LocalNotification = function () {
     this._defaults = {
@@ -231,3 +233,4 @@ channel.onCordovaReady.subscribe( function () {
 });
 
 module.exports = plugin;
+});
